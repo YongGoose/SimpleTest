@@ -29,6 +29,9 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+	// https://mvnrepository.com/artifact/com.navercorp.fixturemonkey/fixture-monkey
+	implementation 'com.navercorp.fixturemonkey:fixture-monkey:1.0.21'
+
 }
 
 tasks.named('test') {
